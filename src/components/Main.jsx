@@ -118,7 +118,7 @@ function Main() {
   }
 
   return filtered.length === 0 ? (
-    <h3 style={{ color: "#7cf03d" }}>No items found</h3>
+    <h3 style={{ color: "#7cf03d" }}>No data found</h3>
   ) : (
     filtered.map((student) => (
       <StudentItem
